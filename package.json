@@ -9,6 +9,7 @@
   "author": "Martín Chichi",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^13.13.1"
+    "cypress": "^13.13.1",
+    "mocha": "^10.7.0"
   }
 }
