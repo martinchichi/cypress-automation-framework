@@ -7,9 +7,7 @@ describe("Iterate over elements", () => {
 
     cy.get(".fixed_wrapper .prdocutname").each(($el, index, $list) => {
       cy.log("Index " + index + " : " + $el.text())
-
       
-     
     });
   });
 
