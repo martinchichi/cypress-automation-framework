@@ -23,9 +23,6 @@ describe("Validate webdriveruni homepage links", () => {
         cy.get('#to-do-list').invoke('removeAttr', 'target').click({force:true})
         cy.url().should('include', 'To-Do-Lis')
         cy.go('back')
-        
-
-
     })
 })
 
