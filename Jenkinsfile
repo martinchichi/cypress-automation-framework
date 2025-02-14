@@ -9,7 +9,8 @@ pipeline {
                 git url: 'https://github.com/martinchichi/cypress-automation-framework.git', branch: 'main'
                 bat 'npm install'
                 bat 'npm update'
-                bat 'npm run triggerAllTests-autoTestStore'
+                // bat 'npm run triggerAllTests-autoTestStore'
+                bat 'npm run %Script%'
             }         
         }
     }
