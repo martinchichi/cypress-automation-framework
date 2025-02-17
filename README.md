@@ -13,7 +13,7 @@ UI Automation framework from scratch with Cypress, JavaScript, Node.JS, Jenkins 
 
 ## Tech Stack
 
-**Functional:** Cypress, JavaScript, Mocha
+**Functional:** Cypress, JavaScript, Mocha, API Testing
 
 **Management:** Page Object Model (POM)
 
@@ -33,9 +33,14 @@ This framework's intention is to implement the core skills for automating softwa
 - Set up projects with Node.js and dependency management
 - Run parallel tests with Cypress for speed
 - Implement continuous integration with Jenkins for full automation
+- Perform API testing using Cypress to validate backend services and endpoints
 
+## API
+
+To clone the API repository, use the following link:
+
+[json-server Repository](https://github.com/qauni/json-server)
 
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/martin-cicinelli/)
-
 
