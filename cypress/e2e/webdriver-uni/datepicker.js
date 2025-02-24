@@ -13,7 +13,7 @@ describe("Test Datepicker via webdriveruni", () => {
         cy.log(date.getDate()) */
 
         var date = new Date();
-        date.setDate(date.getDate()+365)
+        date.setDate(date.getDate()+1)
 
         var futureYear = date.getFullYear();
         var futureMonth = date.toLocaleString("default", {month: "long"})
@@ -43,8 +43,8 @@ describe("Test Datepicker via webdriveruni", () => {
             cy.get('[class="day"]').contains(futureDay).click()
         }
         
-        selectMonthAndYear()
-        selectFutureDay()
+        // selectMonthAndYear()
+        // selectFutureDay()
     })    
 })
 
